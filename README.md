@@ -1,6 +1,10 @@
 # Classic-interview-questions-1
 javascript
-一.(1)var a = {name: 1};
+一.复制引用类型变量值与复制基本类型变量值
+
+(1)
+
+   var a = {name: 1};
 
    var b = a;
    
@@ -20,7 +24,7 @@ javascript
   
   console.log(b);
 
-  运行 test.js 结果为：
+  运行结果为：
 
   { name: 1 }
   
@@ -35,4 +39,16 @@ javascript
   { name: 3 }
   
   (2)
+  
+  var a=1;
+  
+  var b=a;
+  
+  var a=2;
+  
+  console.debug(a);//2
+  
+  console.debug(b);//1
+  
+  
   
